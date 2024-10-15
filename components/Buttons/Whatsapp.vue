@@ -46,7 +46,7 @@ function initClickEvent() {
 )};
 
 const preFilledMessageEncoded = computed(() => {
-	return encodeURIComponent(`${props.preFilledMessage}${props.display_name}:`);
+	return encodeURIComponent(`${props.preFilledMessage}${props.display_name}`);
 });
 
 const link = `https://api.whatsapp.com/send?phone=${props.phone}&text=` + preFilledMessageEncoded.value;

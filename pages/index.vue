@@ -33,7 +33,7 @@ import Instagram from '~/components/Buttons/Instagram.vue'
 //dynamic variables
 const measurement_id = 'G-71J174YFQE';
 const event_name = "crewdepartment";
-const display_name = "Crew Department";
+const display_name = "";
 const background_url = "https://s3.eu-central-1.amazonaws.com/cdn.crafture.com/livecrowd/bgvideos/LIVECROWD_CREWDEPARTMENT_BACKGROUNDVIDEO_V2.01.mp4";
 // const faqTagsList = ["crew"];
 const { initialize } = useGtag()

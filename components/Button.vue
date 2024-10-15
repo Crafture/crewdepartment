@@ -94,9 +94,14 @@ const toggleDetails = () => {
 };
 
 const handleButtonClick = () => {
-    if (props.link) {
+    if (props.link && props.link != "tel:0302042006") {
         window.open(props.link, '_blank');
-    } else if (props.onClickAction) {
+    }
+	else if (props.link) {
+		window.open(props.link, '_self');
+	}
+	
+	else if (props.onClickAction) {
         props.onClickAction();
     }
 }
