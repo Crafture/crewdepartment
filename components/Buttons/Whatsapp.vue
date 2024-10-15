@@ -30,7 +30,7 @@ const props = defineProps({
   },
   preFilledMessage: {
         type: String,
-        default: "Hey Livecrowd, ik heb een vraag over "
+        default: "Hey Crew Department,"
     }
 });
 

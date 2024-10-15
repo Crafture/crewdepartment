@@ -18,7 +18,7 @@ const { gtag } = useGtag();
 const props = defineProps({
     callLink: {
         type: String,
-        default: "tel:info@crewdepartment.nl"
+        default: "tel:0302042006"
     },
 	footerText: {
         type: String,
