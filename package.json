@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "nuxt start"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/node": "^18.17.1",
+    "nuxt": "^3.7.4"
+  },
+  "dependencies": {
+    "@nuxtjs/color-mode": "^3.3.0",
+    "flowbite": "^1.8.1",
+    "flowbite-datepicker": "^1.2.2",
+    "flowbite-vue": "^0.1.0",
+    "googleapis": "^128.0.0",
+    "vue-tailwind-datepicker": "^1.6.1",
+    "vue-tel-input": "^8.1.4"
+  }
+}

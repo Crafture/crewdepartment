@@ -1,0 +1,59 @@
+.like__block {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.like__block-thumbsup {
+    width: 16px;
+    height: 16px;
+    background: rgba(0, 0, 0, 0)
+        url('~/assets/img/icon-thumbs-up.svg') repeat
+        0% 0%;
+    cursor: pointer;
+}
+
+.like__block-thumbsdown {
+    width: 16px;
+    height: 16px;
+    background: rgba(0, 0, 0, 0)
+        url('~/assets/img/icon-thumbs-down.svg') repeat
+        scroll 0% 0%;
+    cursor: pointer;
+}
+
+.like__block-thumbsup-green {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0)
+        url('~/assets/img/icon-thumbs-up-green.svg') repeat
+        scroll 0% 0%;
+}
+
+.like__block-thumbsdown-red {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0)
+        url('~/assets/img/icon-thumbs-down-red.svg') repeat
+        scroll 0% 0%;
+}
+
+.like__block-thumbsup:hover {
+    background: rgba(0, 0, 0, 0)
+        url('~/assets/img/icon-thumbs-up-green.svg') repeat
+        scroll 0% 0%;
+}
+
+.like__block-thumbsdown:hover {
+    background: rgba(0, 0, 0, 0)
+        url('~/assets/img/icon-thumbs-down-red.svg') repeat
+        scroll 0% 0%;
+}
+
+.like__block-counter {
+    text-align: center;
+    font-size: 0.9rem;
+    color: rgb(157, 157, 157);
+}
