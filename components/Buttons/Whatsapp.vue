@@ -22,7 +22,7 @@ const props = defineProps({
   display_name: String,
   phone: {
     type: String,
-    default: "31638882552",
+    default: "31681184000",
   },
   disabled: {
     type: Boolean,

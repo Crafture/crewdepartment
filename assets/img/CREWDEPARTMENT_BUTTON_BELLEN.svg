@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 434.44 434.44">
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect width="434.44" height="434.44" rx="8.67" ry="8.67" fill="#00a532" stroke-width="0"/>
+      <text transform="translate(21.95 43.71)" fill="#fff" font-family="SFPro-Regular, &apos;SF Pro&apos;" font-size="26.78" font-variation-settings="&apos;wdth&apos; 100, &apos;opsz&apos; 28, &apos;wght&apos; 400"><tspan x="0" y="0">Con</tspan><tspan x="46.7" y="0" letter-spacing="0em">t</tspan><tspan x="54.5" y="0">act via</tspan></text>
+      <text transform="translate(21.95 87.79)" fill="#fff" font-family="SFPro-Bold, &apos;SF Pro&apos;" font-size="34" font-variation-settings="&apos;wdth&apos; 100, &apos;opsz&apos; 28, &apos;wght&apos; 700" font-weight="700"><tspan x="0" y="0">Bellen</tspan></text>
+    </g>
+    <g>
+      <path d="M251.72,334.98h-69.01c-12.09,0-21.92-9.83-21.92-21.92v-163.68c0-12.09,9.83-21.92,21.92-21.92h69.01c12.09,0,21.92,9.83,21.92,21.92v163.68c0,12.09-9.83,21.92-21.92,21.92ZM182.72,135.62c-7.59,0-13.76,6.17-13.76,13.76v163.68c0,7.59,6.17,13.76,13.76,13.76h69.01c7.59,0,13.76-6.17,13.76-13.76v-163.68c0-7.59-6.17-13.76-13.76-13.76h-69.01Z" fill="#fff" stroke-width="0"/>
+      <rect x="199.35" y="145.13" width="35.24" height="7.05" rx="3.02" ry="3.02" fill="#fff" stroke-width="0"/>
+    </g>
+  </g>
+</svg>

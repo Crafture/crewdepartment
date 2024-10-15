@@ -53,8 +53,8 @@ export default defineNuxtConfig({
           ],
           link: [
               { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css' },
-              { rel: 'icon', href: 'https://s3.eu-central-1.amazonaws.com/cdn.crafture.com/livecrowd.com/livecrowd_logo.png' },
-              { rel: 'apple-touch-icon', href: 'https://s3.eu-central-1.amazonaws.com/cdn.crafture.com/livecrowd.com/livecrowd_logo.png' }
+              { rel: 'icon', href: 'https://s3.eu-central-1.amazonaws.com/cdn.crafture.com/livecrowd/crewdepartment/CREWDEPARTMENT_FAVICON.jpg' },
+              { rel: 'apple-touch-icon', href: 'https://s3.eu-central-1.amazonaws.com/cdn.crafture.com/livecrowd/crewdepartment/CREWDEPARTMENT_FAVICON.jpg' }
           ]
       }
   },

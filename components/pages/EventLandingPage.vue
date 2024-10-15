@@ -86,6 +86,6 @@ onMounted(async () => {
 });
 
 useHead({
-    title: `Livecrowd | ${props.display_name}`
+    title: `${props.display_name}`
 });
 </script>

@@ -20,11 +20,11 @@ let props = defineProps({
     display_name: String,
     id: {
         type: String,
-        default: "376934875843120"
+        default: "111029324762011"
     },
     footer_text: {
         type: String,
-        default: "@livecrowdnl",
+        default: "@CrewDepartment",
     },
     disabled: {
         type: Boolean,

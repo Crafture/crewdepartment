@@ -1,28 +1,28 @@
 <template>
     <Button
-	:logo="mail"
+	:logo="call"
 	heading="test"
-	styling="bg-zinc-800 text-white"
-	svg-styling=""
+	styling="bg-[#00A532] text-white"
+	svg-styling="max-h-[50px] xl:max-h-[70px]"
 	header-text="Contact via"
-    header-title="E-mail"
+    header-title="Bellen"
 	:footer-text="footerText"
 	@click="initClickEvent()"
-	:link="emailLink" />
+	:link="callLink" />
 </template>
 
 <script setup>
-import mail from '~/assets/img/Mail.svg'
+import call from '~/assets/img/TELEFOON_ICON.svg'
 const { gtag } = useGtag();
 
 const props = defineProps({
-    emailLink: {
+    callLink: {
         type: String,
-        default: "mailto:info@crewdepartment.nl"
+        default: "tel:info@crewdepartment.nl"
     },
 	footerText: {
         type: String,
-        default: "info@crewdepartment.nl"
+        default: "030 – 20 420 06"
     }
 })
 

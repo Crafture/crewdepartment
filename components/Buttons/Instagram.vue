@@ -20,7 +20,7 @@ let props = defineProps({
     display_name: String,
     username: {
         type: String,
-        default: "livecrowdnl",
+        default: "crewdepartment",
     },
     disabled: {
         type: Boolean,
