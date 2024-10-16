@@ -18,11 +18,11 @@ const { gtag } = useGtag();
 const props = defineProps({
     callLink: {
         type: String,
-        default: "tel:0302042006"
+        default: "tel:+310302042006"
     },
 	footerText: {
         type: String,
-        default: "030 – 20 420 06"
+        default: "+310302042006"
     }
 })
 
